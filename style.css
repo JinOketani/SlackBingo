@@ -1,0 +1,146 @@
+/*font*/
+@font-face{
+  font-family: 'こころ明朝体';
+  src: url("./font/kokoro/Kokoro.otf");
+}
+
+/*Common*/
+header{
+  margin: 0;
+}
+main {
+  height: 100vh;
+  margin: 0;
+  margin-top: 0;
+}
+h1{
+  margin: 0;
+  text-align: center;
+  padding-top: 5%;
+}
+body{
+  font-family: 'こころ明朝体';
+  min-height: 100%;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./images/back_img2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.button{
+  text-align: center;
+  margin-top: 5%;
+}
+#start{
+  width: 256px;
+  padding: 4px 8px;
+  margin: 0 8px;
+  font-size: 1.2em;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+}
+#start:hover{
+  width: 256px;
+  padding: 4px 8px;
+  margin: 0 8px;
+  font-size: 1.2em;
+  background-color: #006e54;
+  opacity: 0.8;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+
+#stop{
+  width: 256px;
+  padding: 4px 8px;
+  margin: 0 8px;
+  font-size: 1.2em;
+  background-color: transparent;
+  opacity: 0.8;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+
+#stop:hover{
+  width: 256px;
+  padding: 4px 8px;
+  margin: 0 8px;
+  font-size: 1.2em;
+  background-color: #bb5535;
+  opacity: 0.8;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+
+#reset{
+  width: 256px;
+  padding: 4px 8px;
+  margin: 0 8px;
+  font-size: 1.2em;
+  background-color: transparent;
+  opacity: 0.8;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+#reset:hover{
+  width: 256px;
+  padding: 4px 8px;
+  margin: 0 8px;
+  font-size: 1.2em;
+  background-color: #1ab7ea;
+  opacity: 0.8;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+}
+
+#view{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+/*PC display*/
+@media only screen and (min-width: 768px){
+  #out{
+    margin-top: 10%;
+    margin: 5%;
+    text-align: center;
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    float:left;
+    width:200px;
+    word-break: keep-all;
+  }
+}
+
+/*SmartPhone display*/
+@media only screen and (max-width: 768px){
+  .button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  #out {
+    list-style: none;
+    margin-left: 25%;
+  }
+  li {
+  }
+}
