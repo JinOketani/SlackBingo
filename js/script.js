@@ -4,20 +4,24 @@ $ = function(x) {
 
 var xmlHttp;
 var members = new Array();
-var token = "xoxp-96902184263-96902730102-111861686422-c0a0ac4b0237fde9594051f4920ba0fe";
+var token = "your slack token";
+
 xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", "https://slack.com/api/users.list?token="+token, false);
+xmlHttp.open("GET", "https://slack.com/api/users.list?token="+token+"&channel=2017-members", false);
 xmlHttp.send(null);
 data = xmlHttp.responseText;
 json = JSON.parse(data);
 users = json['members'];
-var list = [];
 
 for(i=0; i < 30; i++){
-  members[i] = (users[i]['name'] + " ");
+  members[i] = (users[i]['name']);
   var numList = members
   var isStop = true;
   var n = 1;
+
+  // function start() {
+  //   $("test").innerText = numList.length;
+  // }
 
   function startBingo() {
     $("start").style.display = "none";
