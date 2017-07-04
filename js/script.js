@@ -7,7 +7,7 @@ var members = new Array();
 var token = "your slack token";
 
 xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", "https://slack.com/api/users.list?token="+token+"&channel=2017-members", false);
+xmlHttp.open("GET", "https://slack.com/api/users.list?token="+token+"", false);
 xmlHttp.send(null);
 data = xmlHttp.responseText;
 json = JSON.parse(data);
