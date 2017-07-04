@@ -5,6 +5,17 @@
 }
 
 /*Common*/
+.sidebar{
+  position: fixed;
+  color: #fff; /* 好みに応じて調節してください */
+}
+.sidebar.left {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 270px; /*この値は調節してください。*/
+  background: #448AFF; /*背景色も好みに応じにて調節してください。*/
+}
 header{
   margin: 0;
 }
