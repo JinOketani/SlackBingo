@@ -4,10 +4,10 @@ $ = function (x) {
 
 var xmlHttp;
 var members = new Array();
-var token = "your slack token";
+var token = "Your slack token!";
 
 xmlHttp = new XMLHttpRequest();
-xmlHttp.open("GET", "https://slack.com/api/users.list?token=" + token + "", false);
+xmlHttp.open("GET", "https://slack.com/api/users.list?token=" + token, false);
 xmlHttp.send(null);
 data = xmlHttp.responseText;
 json = JSON.parse(data);
@@ -58,9 +58,9 @@ for (i = 0; i < 30; i++) {
                 newli.append(member);
             }
             numList.splice(rnd, 1);
-            // リストが空になったら終了
+
             if (numList.length == 0) {
-                alert("終了です");
+                alert("Finish");
                 $("start").disabled = true;
                 $("start").style.display = "none";
                 $("reset").style.display = "inline";
