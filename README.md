@@ -1,4 +1,5 @@
 # SlackBingo
+ Select slack team members
 ## Set up
 1. Get slack token
   <br>https://api.slack.com/custom-integrations/legacy-tokens
