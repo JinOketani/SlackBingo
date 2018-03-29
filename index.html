@@ -6,8 +6,21 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=10.0, user-scalable=yes">
     <title>SlackBingo</title>
+    <script type="text/javascript" src="./js/script.js"></script>
 </head>
-<body>
+<body onload="initCheckbox()">
+<header>
+    <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+            <form id="box">
+                <input type="button" id="post-member" class="btn-add" value="追加" onclick="getCheckbox()">
+            </form>
+        </div>
+    </div>
+</header>
 <div id="main">
     <h1>Next...</h1>
     <div class="button">
@@ -20,6 +33,5 @@
     <div id="view"></div>
     <ul id="out"></ul>
 </div>
-<script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
