@@ -5,7 +5,7 @@
 2. Set slack token
 <br>[Set slack token for this code](https://github.com/JinOketani/SlackBingo/blob/eb82cce2ac1663f94f7c03b256d663d9f764cd7f/js/script.js#L11)
 <br>`js/script.js line:11`
-rewrite `your token` 
+<br>rewrite `your token` 
 ```
 var token = "xoxp-hogehogehugahuga000000000";
 ```
