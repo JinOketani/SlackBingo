@@ -1,5 +1,7 @@
 # SlackBingo
- Select slack team members
+ Select slack team members<br>
+<img src="https://camo.qiitausercontent.com/31bb68efe83529f18f005ed729f5643d777d3a4b/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e616d617a6f6e6177732e636f6d2f302f38313334312f37393164616632382d323662632d336164312d303563362d3965326234333164646565372e676966">
+
 ## Set up
 1. Get slack token
   <br>https://api.slack.com/custom-integrations/legacy-tokens
