@@ -23,7 +23,6 @@ function paseJson() {
       members.push((user['name']));
     }
   }
-
   return members
 }
 
@@ -32,7 +31,7 @@ function initCheckbox() {
   members = paseJson();
   for (member of members) {
     var box = $('box');
-    box.insertAdjacentHTML('afterbegin', `<input type="checkbox" checked="checked" name="user" value="${member}" class="select-user"><label>${member}</label><br>`)
+    box.insertAdjacentHTML('afterbegin', `<input type="checkbox" name="user" value="${member}" class="select-user"><label>${member}</label><br>`)
   }
 }
 

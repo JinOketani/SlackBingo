@@ -124,9 +124,6 @@ h1 {
     font-size: 40px;
 }
 
-
-
-
 /*PC display*/
 @media only screen and (min-width: 768px) {
     #out {
@@ -261,5 +258,4 @@ header {
     border: 2px solid #fff;
     color: #fff;
     line-height: 50px;
-    
 }
