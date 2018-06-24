@@ -124,9 +124,6 @@ h1 {
     font-size: 40px;
 }
 
-
-
-
 /*PC display*/
 @media only screen and (min-width: 768px) {
     #out {
@@ -235,24 +232,6 @@ header {
     background: #fff;/*背景色*/
     transition: .3s ease-in-out;/*滑らかに表示*/
     -webkit-transform: translateX(-105%);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     transform: translateX(-105%);/*左に隠しておく*/
 }
 
@@ -279,5 +258,4 @@ header {
     border: 2px solid #fff;
     color: #fff;
     line-height: 50px;
-    
 }
