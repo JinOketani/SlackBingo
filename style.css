@@ -235,6 +235,24 @@ header {
     background: #fff;/*背景色*/
     transition: .3s ease-in-out;/*滑らかに表示*/
     -webkit-transform: translateX(-105%);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     transform: translateX(-105%);/*左に隠しておく*/
 }
 
